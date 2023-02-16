@@ -44,14 +44,19 @@ h3 {
   background: #abbaab;
   background: -webkit-linear-gradient(to right, #181010, #545c54);
   background: linear-gradient(to right, #333333, #242020);
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 .idish:hover {
   background: #eb5757;
   background: -webkit-linear-gradient(to right, #000000, #120606);
   background: linear-gradient(to right, #000000, #1d0b0b);
-  transition: 0.7s;
+  transition: 0.5s;
+    -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
 }
 .img {
   width: 240px;
